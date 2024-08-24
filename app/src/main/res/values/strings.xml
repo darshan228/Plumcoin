@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Plumcoin</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="run_to_earn">Run to earn</string>
+    <string name="run_to_earn_desc">The more you work out the more you earn plumcoins</string>
+    <string name="redeem_for_offer">Redeem them for offers</string>
+    <string name="redeem_for_offer_desc">Exchange your Plumcoins on amazing deals</string>
+    <string name="donate_to_charity">Donate to charity</string>
+    <string name="donate_to_charity_desc">Now your sweats can earn you some good karma</string>
+    <string name="getting_started">Get Started</string>
+    <string name="to_continue_login_option">To continue select a login option</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="error_no_apple_login">Login with apple is not available</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="steps_today">Steps Today</string>
+    <string name="average_steps">Average steps</string>
+</resources>

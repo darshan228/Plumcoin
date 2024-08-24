@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.login.LoginActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:fillViewport="true">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/tvWelcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/rubik_font_family"
+                    android:text="@string/welcome_to"
+                    android:textColor="@color/black_1"
+                    android:textSize="28sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvAppName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/rubik_font_family"
+                    android:text="@string/app_name"
+                    android:textColor="@color/blue_1"
+                    android:textSize="28sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvWelcome" />
+
+                <ImageView
+                    android:id="@+id/ivCover"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/boy_girl"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvWelcome" />
+
+                <ImageView
+                    android:id="@+id/ivEarn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="38dp"
+                    android:src="@drawable/ic_coin"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivCover" />
+
+                <TextView
+                    android:id="@+id/tvEarn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginEnd="39dp"
+                    android:fontFamily="@font/rubik_font_family"
+                    android:text="@string/run_to_earn"
+                    android:textColor="@color/black_1"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/ivEarn"
+                    app:layout_constraintTop_toTopOf="@id/ivEarn" />
+
+                <TextView
+                    android:id="@+id/tvEarnDesc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="39dp"
+                    android:fontFamily="@font/rubik_font_family"
+                    android:text="@string/run_to_earn_desc"
+                    android:textColor="@color/black_2"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/tvEarn"
+                    app:layout_constraintTop_toBottomOf="@id/tvEarn" />
+
+                <ImageView
+                    android:id="@+id/ivGift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="43dp"
+                    android:src="@drawable/ic_gift_card"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivEarn" />
+
+                <TextView
+                    android:id="@+id/tvGift"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginEnd="39dp"
+                    android:fontFamily="@font/rubik_font_family"
+                    android:text="@string/redeem_for_offer"
+                    android:textColor="@color/black_1"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/ivGift"
+                    app:layout_constraintTop_toTopOf="@id/ivGift" />
+
+                <TextView
+                    android:id="@+id/tvGiftDesc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="39dp"
+                    android:fontFamily="@font/rubik_font_family"
+                    android:text="@string/redeem_for_offer_desc"
+                    android:textColor="@color/black_2"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/tvGift"
+                    app:layout_constraintTop_toBottomOf="@id/tvGift" />
+
+                <ImageView
+                    android:id="@+id/ivGiveLove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="43dp"
+                    android:src="@drawable/ic_give_love"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivGift" />
+
+                <TextView
+                    android:id="@+id/tvGiveLove"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginEnd="39dp"
+                    android:fontFamily="@font/rubik_font_family"
+                    android:text="@string/donate_to_charity"
+                    android:textColor="@color/black_1"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/ivGiveLove"
+                    app:layout_constraintTop_toTopOf="@id/ivGiveLove" />
+
+                <TextView
+                    android:id="@+id/tvGiveLoveDesc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="39dp"
+                    android:fontFamily="@font/rubik_font_family"
+                    android:text="@string/donate_to_charity_desc"
+                    android:textColor="@color/black_2"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/tvGiveLove"
+                    app:layout_constraintTop_toBottomOf="@id/tvGiveLove" />
+
+
+                <Button
+                    android:id="@+id/btnStart"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_marginStart="63dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="63dp"
+                    android:layout_marginBottom="43dp"
+                    android:background="@drawable/blue_rounded_button"
+                    android:fontFamily="@font/rubik_font_family"
+                    android:text="@string/getting_started"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvGiveLoveDesc" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+        <include
+            android:id="@+id/loginSheetLayout"
+            layout="@layout/login_bottonsheet_layout" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
