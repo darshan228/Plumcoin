@@ -1,6 +1,7 @@
 # Plumcoin App
 
 ![Platform](https://img.shields.io/badge/platform-Android-brightgreen.svg?color=3399ff&style=for-the-badge)
+![Languages](https://img.shields.io/github/languages/count/darshan228/Plumcoin?color=56beb8&style=for-the-badge)
 
 ## Screenshots
 
